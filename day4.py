@@ -79,7 +79,7 @@ else:
     'course': 'BSSE', 
     'year': '3'
 }
-    student_dict.update({'year': 'PAYO', 'whatsapp_number': '0763217749'})
+    student_dict.update({'course': 'PAYO', 'whatsapp_number': '0763217749'})
 
 # Print the updated dictionary
 print(student_dict)
