@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/steka/Desktop/Recess Files/recess-2-python/web_scrapping_day16_ntegeka_k_pius/myenv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from charset_normalizer.cli import cli_detect
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli_detect())
